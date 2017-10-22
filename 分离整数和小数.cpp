@@ -1,7 +1,9 @@
 #include<stdio.h>
 #include<float.h>
 int main(){
-	float x=1.200;
+	double x;
+	printf("请输入一个小数\n");
+	scanf("%lf",&x);
 	int a=x;
 	int b=x*1000;
 	int c=b%1000;
