@@ -33,19 +33,12 @@ int main(){
 							m += 1;
 							n += i;
 							max = i;
-						}else{
-							continue;
-						}	
-					}else{
-						continue;
+						}
 					}
-				}else{
-					continue;
 				}
 					
 			}
 		}
-		if(a1 != i - 1)continue;
 	}
 	printf("[100,9999]超级素数个数：%d\n[100,9999]超级素数之和：%d\n[100,9999]最大的超级素数: %d\n", m, n, max);
 	return 0; 
